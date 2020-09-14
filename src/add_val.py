@@ -1,5 +1,5 @@
 import sys
-from src.tools import sum
+from tools import sum
 
 argnumbers = len(sys.argv) - 1
 
