@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     stages {
+        stage('Source') {
+            steps {
+                git 'https://github.com/kumar-pratik/python_jenkins.git'
+            }
+        }
         stage('Build') {
             steps {
                 echo 'Building..'
