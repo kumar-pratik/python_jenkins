@@ -1,5 +1,5 @@
 pipeline {
-    agent {lebel 'Linux'}
+    agent {label 'Linux'}
 
     stages {
         stage('Source') {
