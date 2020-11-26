@@ -45,5 +45,6 @@ class TestCalc(unittest.TestCase):
         result = tools.sum('abc', '5.5')
         self.assertEqual(result, 'abc5.5')
 
+
 if __name__ == '__main__':
     unittest.main()
